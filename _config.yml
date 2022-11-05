@@ -1,0 +1,69 @@
+# Site settings
+title: Enduring Home Solutions
+email: Trace.Schwerman@enduringhomesolutions.com
+url: localhost:4000
+description: Enduring Home Solutions uses Home Safety Assessments and Home Modification Consultations to proactice decrease fall risks, reduce safety hazards, and create a more accomodating home.
+keywords: home modifications, fall prevention, fall risks, home safety, home safety hazards, fall hazards, in home assessments
+skills: Home Safety Assessments, Home Modification Consultations, Proactive Fall Prevention
+meta_author: Schwerman Trace
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: It's About Quality of Life
+  location: Contact
+  social: Around the Web
+  credits: Ready To Help!
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/EnduringHomesol
+  - title: facebook
+    url: https://www.facebook.com/EnduringHomeSolutions
+  - title: instagram
+    url: https://www.instagram.com/enduringhomesolutions/
+ 
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 832-971-1295 (DFW, TX)
+  - line: Trace.Schwerman@enduringhomesolutions.com
+ 
+
+# Credits content
+credits: 'We will help you create a long lasting relationship with your home.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
