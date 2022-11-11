@@ -1,4 +1,3 @@
-<form action="https://formspree.io/f/xnqrlvow" method="POST" form>
 
 <?
   
@@ -15,7 +14,7 @@ if(empty($_POST['name'])  		||
 	return false;
    }
 
-$name = $_POST['name'];
+$name = $_POST['EHS wbsite'];
 if ($email_address === FALSE) {
     echo 'Invalid email';
     exit(1);
